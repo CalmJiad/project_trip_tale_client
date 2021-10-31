@@ -1,0 +1,10 @@
+@media screen and (max-width: 767px) {
+  .footer-bar .brand,
+  p {
+    font-size: 18px;
+  }
+  .footer-part {
+    padding-top: 0 !important;
+    padding-bottom: 0;
+  }
+}

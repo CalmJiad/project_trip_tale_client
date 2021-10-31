@@ -1,0 +1,19 @@
+.order-form form input,
+textarea {
+  width: 80%;
+  margin-bottom: 10px;
+  padding: 12px;
+}
+
+@media screen and (max-width: 767px) {
+  .details-container {
+    width: 100vw !important;
+  }
+  .details-container h3 {
+    font-size: 18px;
+  }
+  .details-container h4 {
+    font-size: 13px;
+    text-align: center;
+  }
+}
