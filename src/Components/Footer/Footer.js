@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="col-md-4 p-5 footer-part">
             <div>
               <p className="fs-5 text-warning">
-                <i class="fas fa-2x fa-campground"></i> Trip Tale <br />{" "}
+                <i className="fas fa-2x fa-campground"></i> Trip Tale <br />{" "}
                 <small className="lead brand">
                   __creating the tales for future
                 </small>
@@ -23,7 +23,7 @@ const Footer = () => {
           </div>
           <div className="col-md-4 p-5 text-info footeritem footer-part">
             <h5>
-              <i class="fas fa-2x fa-location-arrow"></i> Our Head Office
+              <i className="fas fa-2x fa-location-arrow"></i> Our Head Office
             </h5>
             <p className="mt-4">
               1211, Chattagram Hill View <br /> Hill View Residential R/A <br />{" "}
@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
           <div className="col-md-4 p-5 text-info footer-part">
             <h5>
-              <i class="far fa-2x fa-clock"></i> Working Time
+              <i className="far fa-2x fa-clock"></i> Working Time
             </h5>
             <p className="mt-4">
               Mon - Wed - 9:00 AM - 7:00 PM <br />

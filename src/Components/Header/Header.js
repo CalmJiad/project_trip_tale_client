@@ -9,7 +9,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid px-5">
           <a className="navbar-brand text-warning brand-logo" href="/">
-            <i class="fas fa-2x fa-campground"></i> Trip Tale
+            <i className="fas fa-2x fa-campground"></i> Trip Tale
           </a>
           <button
             className="navbar-toggler"
@@ -35,9 +35,9 @@ const Header = () => {
                 </a>
               </li>
               {user.email && (
-                <li class="nav-item dropdown">
+                <li className="nav-item dropdown">
                   <a
-                    class="nav-link dropdown-toggle"
+                    className="nav-link dropdown-toggle"
                     href="/"
                     id="navbarDropdown"
                     role="button"
@@ -46,19 +46,22 @@ const Header = () => {
                   >
                     <small className="text-white">{user.displayName}</small>
                   </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <ul
+                    className="dropdown-menu"
+                    aria-labelledby="navbarDropdown"
+                  >
                     <li>
-                      <a class="dropdown-item" href="/bookedEvents">
+                      <a className="dropdown-item" href="/bookedEvents">
                         My Booked Trips
                       </a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/manageEvents">
+                      <a className="dropdown-item" href="/manageEvents">
                         Manage All Trips
                       </a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/addService">
+                      <a className="dropdown-item" href="/addService">
                         Host A New Trip
                       </a>
                     </li>

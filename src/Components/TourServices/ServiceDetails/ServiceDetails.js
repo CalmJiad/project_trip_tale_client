@@ -38,12 +38,16 @@ const ServiceDetails = () => {
         Please_
       </h2>
       <div className="col-md-6 col-sm-12">
-        <div class="card mb-3 m-auto">
-          <img src={service.img} class="card-img-top img-thumbnail" alt="..." />
-          <div class="card-body">
-            <h3 class="card-title text-center">{service.name}</h3>
-            <p class="card-text">{service.description}</p>
-            <h4 class="card-text text-center">
+        <div className="card mb-3 m-auto">
+          <img
+            src={service.img}
+            className="card-img-top img-thumbnail"
+            alt="..."
+          />
+          <div className="card-body">
+            <h3 className="card-title text-center">{service.name}</h3>
+            <p className="card-text">{service.description}</p>
+            <h4 className="card-text text-center">
               Participants: {service.sit} || Estimated Cost: {service.price}/=
               TK <br /> Package: {service.duration} || Meals, Rooms, Guides
             </h4>

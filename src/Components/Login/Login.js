@@ -3,8 +3,7 @@ import { useHistory, useLocation } from "react-router";
 import useAuth from "../../Hooks/useAuth";
 
 const Login = () => {
-  const { googleSignInHandler, user, handleSignOut, isLoading, setIsLoading } =
-    useAuth();
+  const { googleSignInHandler, user, handleSignOut, setIsLoading } = useAuth();
   const location = useLocation();
   const redirect_url = location.state?.from || "/home";
   const history = useHistory();
@@ -33,7 +32,7 @@ const Login = () => {
       <div className="text-center m-auto">
         {!user.email ? (
           <button onClick={handleGoogleSignIn} className="btn bg-success px-5">
-            <i class="fab fa-4x fa-google text-white"></i>
+            <i className="fab fa-4x fa-google text-white"></i>
           </button>
         ) : (
           <button onClick={handleSignOut} className="btn btn-success px-5">
